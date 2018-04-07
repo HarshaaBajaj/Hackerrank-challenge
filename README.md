@@ -14,7 +14,7 @@ Produce an ascending ordered list for all movie titles containing the substring 
 
 The function getMovieTitles tries to retreive all the movie titles (could be over multiple pages) for the substring provided by user
 
-### 1. Luggage
+### 2. Luggage
 ## Given
 A string input of luggage ids
 
