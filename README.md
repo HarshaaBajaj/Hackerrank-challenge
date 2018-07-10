@@ -31,7 +31,7 @@ An array of integers
 Split the array into two arrays having the same sum of elements
 
 ## Description
--- The total sum of elements is calculated upfront
--- Each element in the array is added to a 'seen' total and subtracted from the 'total'  calculated in the previous step
--- The above step is repeated until either both the sums are equal in which case the index for the split is determined else the array can't be split and is returned as whole
+-- The total sum of elements is calculated upfront <br>
+-- Each element in the array is added to a 'seen' total and subtracted from the 'total'  calculated in the previous step<br>
+-- The above step is repeated until either both the sums are equal in which case the index for the split is determined else the array can't be split and is returned as whole<br>
 
