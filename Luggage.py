@@ -1,7 +1,7 @@
 def  luggage(weights):
     answer = ""
     b=[] ; final =[]
-    for i in [map(int(x),weights.split(','))][::-1]:
+    for i in list(map(int,weights.split(',')))[::-1]:
         if len(b) < 3 :
             b.append(i)
         if len(b) == 3 :
