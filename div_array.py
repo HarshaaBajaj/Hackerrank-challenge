@@ -15,12 +15,12 @@ def div_arr(a):
             return i + 1
 
 if __name__ == '__main__':
-	a = input('Please enter the list \n') or '2,7,9'
-    a = [int(x) for x in a.split()]
-    res = div_arr(a)
-    if res != None: # if we found a split index
-        print('Array splitable \n',[a[0:res],a[res:]]) # return list of the two new arrays
-    else: print('Unable to split\n',a) # if not found return the original array
+	a = input('Please enter the list \n') or '2 7 9'
+	a = list(map(int,a.split()))
+	res = div_arr(a)
+	if res != None: # if we found a split index
+		print('Array splitable \n',[a[0:res],a[res:]]) # return list of the two new arrays
+	else: print('Unable to split\n',a) # if not found return the original array
     
 # example input:
 # a=[1,2,3,4,5,5] ; b=[5,5,1,2,3,4]; c = [3,4]
