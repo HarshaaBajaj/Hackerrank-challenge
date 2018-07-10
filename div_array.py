@@ -15,7 +15,7 @@ def div_arr(a):
             return i + 1
 
 if __name__ == '__main__':
-	a = input('Please enter the list \n') or '2 7 9'
+	a = input('Please enter the list elements separated by space \n') or '2 7 9'
 	a = list(map(int,a.split()))
 	res = div_arr(a)
 	if res != None: # if we found a split index
